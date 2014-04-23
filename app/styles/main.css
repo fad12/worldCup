@@ -1,0 +1,120 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.imgbg{
+  z-index: -999;
+  position: absolute;
+  top: 0px;
+
+}
+.container{
+ padding: 0;
+ overflow: hidden;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 1000px;
+  }
+
+/* Scores */
+.score{
+border-radius: 15px;
+background: rgba(250,250,250,0.5);
+padding: 0px;
+text-align: right;
+margin: 0 15px 0 21px;
+border: 5px #506d84 solid;
+ max-height: 174px;
+}
+.score h3{
+  font-weight: bold;
+color: #506d84;
+padding: 5px 5px 0 0;
+margin: 0;
+}
+.score p{
+text-align: center;
+font-size: 6em;
+font-weight: bold;
+color: #506d84;
+padding: 0;
+margin: 0;
+}
+.ScoreHome{
+margin-top: 150px;
+}
+/* / Scores */
+
+.user_info{
+border-radius: 15px;
+background: rgba(250,250,250,0.5);
+padding: 0px 10px;
+text-align: right;
+
+border: 5px #506d84 solid;
+}
+
+.list-group{
+  background: none;
+
+
+}
+.list-group-item{
+    background: none;
+    border: none;
+    font-size: 1.2em;
+     color: #506d84;
+       font-weight: bold;
+
+}
+.Userimg{
+  border-radius: 15px;
+margin-left: 20px;
+padding: 0;
+
+
+
+}
+.Userimg img{
+  border: 5px #506d84 solid;
+  background: rgba(250,250,250,0.5);
+ 
+background: rgba(250,250,250,0.5);
+
+}
+
+.scoretitle{
+  text-align: center;
+margin: 0 0 0 30%;
+position: relative;
+top: 102px;
+}
+.formcontainer{
+  border-radius: 15px;
+background: rgba(250,250,250,0.5);
+margin: 0 0 0 25px;
+width: 93%;
+
+margin-top: 124px;
+border: 5px #506d84 solid;
+
+}
+.formtable td{
+  font-size: 1.5em;
+  font-weight: bold;
+     color: #506d84;
+     text-align: center;
+
+
+}
+
+.homeinput{
+  max-width: 60px;
+  text-align: center;
+}
+.table > tbody > tr > td{
+  vertical-align: middle;
+border: none;
+}
